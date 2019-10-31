@@ -6,7 +6,8 @@ import './home.scss';
 const Home: React.FC = () => {
   return (
     <div className="home">
-      home
+      homesadfdf
+      <div>afdafdfsasasdfafasf</div>
       {/* <Hello></Hello> */}
     </div>
   );

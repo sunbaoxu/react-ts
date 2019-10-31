@@ -28,3 +28,16 @@ cnpm i react-router-dom --save-dev
 
 cnpm i loadable-components --save-dev
 
+###  scss全局变量
+cnpm i sass-resources-loader --save-dev
+
+webpack.config.js   447
+
+.concat([
+  {
+    loader: "sass-resources-loader",
+    options: {
+      resources: path.join(__dirname, "../src/assets/css/${name}.scss")
+    }
+  }
+])

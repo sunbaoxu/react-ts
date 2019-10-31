@@ -1,4 +1,9 @@
 .home{
+  font-size: 24px;
   background: red;
-
+  div{
+    font-size: 30px;
+    background: $col-3;
+    color: $col-f;
+  }
 }
