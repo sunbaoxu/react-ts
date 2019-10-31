@@ -140,6 +140,7 @@
     ]
   },
   "devDependencies": {
-    "babel-plugin-import": "^1.12.2"
+    "babel-plugin-import": "^1.12.2",
+    "loadable-components": "^2.2.3"
   }
 }
