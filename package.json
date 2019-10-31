@@ -141,6 +141,8 @@
   },
   "devDependencies": {
     "babel-plugin-import": "^1.12.2",
-    "loadable-components": "^2.2.3"
+    "loadable-components": "^2.2.3",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^7.2.0"
   }
 }

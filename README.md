@@ -24,3 +24,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 cnpm i react-router-dom --save-dev
 
+### 懒加载
+
+cnpm i loadable-components --save-dev
+
