@@ -117,6 +117,12 @@ module.exports = function(webpackEnv) {
           sourceMap: isEnvProduction && shouldUseSourceMap,
         },
       },
+      {
+        loader: require.resolve('sass-resources-loader'),
+        options: {
+          resources: './src/assets/css/common.scss'
+        }
+      }
     ].filter(Boolean);
     if (preProcessor) {
       loaders.push(

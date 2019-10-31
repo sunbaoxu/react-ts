@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import Hello from '../../components/hello';
-// import './index.scss';
+import './home.scss';
 
 const Home: React.FC = () => {
   return (
