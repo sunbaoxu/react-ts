@@ -41,3 +41,18 @@ webpack.config.js   447
     }
   }
 ])
+
+###  爬虫限制  robots.txt
+
+必须在根目录下，没有这个文件代表没有爬虫限制
+https://www.robotstxt.org/robotstxt.html
+
+### 取消map文件   -- 定位问题位置，生产不需要
+
+根目录新建 .env.production 
+GENERATE_SOURCEMAP= 'false'
+
+
+
+
+
