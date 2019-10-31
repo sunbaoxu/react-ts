@@ -67,7 +67,7 @@
   },
   "scripts": {
     "dev": "node scripts/start.js",
-    "build": "node scripts/build.js --mode testA",
+    "build": "dotenv -e .env.testA  node scripts/build.js",
     "prod": "node scripts/build.js ",
     "test": "node scripts/test.js"
   },
@@ -141,6 +141,7 @@
   },
   "devDependencies": {
     "babel-plugin-import": "^1.12.2",
+    "dotenv-cli": "^3.0.0",
     "loadable-components": "^2.2.3",
     "node-sass": "^4.13.0",
     "sass-loader": "^7.2.0",
