@@ -52,6 +52,10 @@ https://www.robotstxt.org/robotstxt.html
 根目录新建 .env.production 
 GENERATE_SOURCEMAP= 'false'
 
+###  区分环境
+cnpm install --save-dev  dotenv-cli
+
+dotenv -e .env.testA  node scripts/build.js
 
 
 
