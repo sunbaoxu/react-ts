@@ -11,7 +11,7 @@ const A4 = loadable (()=>import('../views/A4'));
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename={'/'+process.env.REACT_APP_BASEURL}>
       <div className="App">
         <ul>
           <li>
@@ -31,7 +31,7 @@ const App: React.FC = () => {
           </li>
         </ul>
       </div>
-      <Route exact path="/" component={Home}></Route>
+      <Route path="/" component={Home}></Route>
       <Route path="/A1" component={A1}></Route>
       <Route path="/A2" component={A2}></Route>
       <Route path="/A3" component={A3}></Route>
